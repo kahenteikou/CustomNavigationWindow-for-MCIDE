@@ -14,7 +14,7 @@
                             <RowDefinition/>
                         </Grid.RowDefinitions>
                         <StackPanel Orientation="Horizontal" Margin="0,6,6,0" HorizontalAlignment="Right" VerticalAlignment="Top">
-                            <Button Content="←" Width="24" Height="24" HorizontalAlignment="Left" Background="White" BorderThickness="0" Foreground="Black" />
+                            <Button Content="a" Width="24" Height="24" HorizontalAlignment="Left" Background="White" BorderThickness="0" Foreground="Black" FontFamily="/CustomNavigationWindow;component/#SVGFont 1"/>
                             <TextBlock Text="{Binding Title, ElementName=window, Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="6,3,12,3" FontSize="14.667" />
                             <Button Content="✕" Width="24" Height="26" HorizontalAlignment="Right" Background="Red" BorderThickness="0" Foreground="White" WindowChrome.IsHitTestVisibleInChrome="True" x:Name="Exit_BUTTON"/>
                         </StackPanel>

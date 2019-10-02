@@ -93,7 +93,7 @@
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
                             <DockPanel Background="White">
-                                    <Button x:Name="BackButton"  Width="36" Content="←" FontWeight="Bold" FontSize="25" Height="36" HorizontalAlignment="Left" Background="Transparent" BorderThickness="0" Foreground="Black"  WindowChrome.IsHitTestVisibleInChrome="True" >
+                                    <Button x:Name="BackButton"  Width="36" Content="a" FontWeight="Bold" FontSize="25" Height="36" HorizontalAlignment="Left" FontFamily="/CustomNavigationWindow;component/#SVGFont 1" Background="Transparent" BorderThickness="0" Foreground="Black"  WindowChrome.IsHitTestVisibleInChrome="True" >
                                         <!--<StackPanel Orientation="Horizontal">
                                             <Image Width="36" Height="36" Source="./Resources/back_no.png" VerticalAlignment="Center" />
                                         </StackPanel>-->
